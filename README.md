@@ -4,13 +4,22 @@
 
 可以用来查看和修改团队工作进度，个人工作情况，并生成相关统计信息用于分析。
 
+## Why is agile
+
+我们认为软件交付过程的本质是用户价值的实现，而用户价值的实现是通过用户价值流动来体现的，为此我们提供了一套工具来帮助用户通过敏捷的方式来管理用户价值的流动，使整个软件开发流程管理化规范化。
+
+在整个过程中，设定好目标之后，以最快捷最具有价值的部分去走，保证以最快最准的态度进入开发，并在最短的周期内使团队迅速进入开发的状态
+
 ## Getting Started
 
-**项目依赖于hapcloud框架**
+**项目依赖于choerodon前端框架**
 
 1. 克隆代码: `git clone http://code.saas.choerodon.com.cn/hand-rdc-choerodon/agile-front.git --recursive`  
+
 2. 在boot和kanbanfront中分别执行`npm i`
+
 3. 在boot下执行`gulp`（监听文件变动，不要关闭）和`npm run dev`
+
 4. 在浏览器中输入`localhost：9090`即可查看和使用
 
 ## Menu
@@ -24,39 +33,19 @@
 
 ## Characteristics
 
-1. release：
-    - 规划issue：对相关issue进行查看和修改
-    - 多条件查看列表：包括查询、筛选和排序
-    - 创建version
-2. backlog：
-    - epic规划：创建、修改和删除epic并根据epic维度分类issue
-    - sprint规划：创建、修改和删除sprint并根据sprint维度分类issue
-    - version规划：创建、修改和删除version并根据version维度分类issue
-    - issue规划工作台：实现高定制化的工作台，包括自定义拖拽排序、多条件多维度查询等
-3. issue：
-   - issue管理平台：多视图模式查看issue，可新建（包括简易创建）、修改、删除、排序、分类、筛选issue
-   - issue评论
-   - issue工作日志：通过登入工作状态和剩余的估算生成列表型的工作日志更好地追踪每天的工作进度和剩余状态
-   - issue相关任务：通过issue详情中的sub-task功能实现与子任务的关联
-   - 自定义label：用户可以自定义label给issue打上不同的标签，并根据标签分类、筛选等
-   - issue分支管理：关联分支
-   - issue附件：可对issue和issue中的评论、工作日志添加附件使描述更加详细和丰富
-   - issue模块：使issue与component模块关联，在其他页面根据模块分类、筛选
-   - status定义：通过对status的创建、设置，与status的内置类别相互关联，实现高度自定义
-4. board
-   - board设置：column与status相互对应（一列可以对应多个status），对board进行设置
-   - board中issue管理：issue在board上的可自由拖拽
-   - swimlane功能：自定义泳道功能
+1. 可多条件多维度查询的issue工作台，更方便地查看issue
 
-## Why is agile
+2. 可自由拖拽的backlog工作台，迅速查看自己的工作情况
 
-  在整个过程中，设定好目标之后，以最快捷最具有价值的部分去走，保证以最快最准的态度进入开发，并在最短的周期内使团队迅速进入开发的状态
+3. 高粒度的issue功能，包括标签、模块等自定义字段，方便用户更好地检索和查看自己感兴趣的内容，还包括评论、工作日志等功能，便于追踪每天的工作进度和剩余情况，制定新计划,与分支的关联使开发更加方便
+
+4. 简易但强大的看板，可以自定义看板列的状态（一列对应一或多个状态），自定义关注的看板列，形式多样且操作方便，直观展现工作进度
 
 ## TODO list
 
 - [ ] User Story Map：用户故事地图
-- [ ] report：报表
-- [ ] history：历史记录
+- [ ] Report：报表
+- [ ] History：历史记录
 - [ ] 分支关联与管理
 
 ## Contributing
