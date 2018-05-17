@@ -44,9 +44,9 @@
    - issue模块：使issue与component模块关联，在其他页面根据模块分类、筛选
    - status定义：通过对status的创建、设置，与status的内置类别相互关联，实现高度自定义
 4. board
-  - board设置：column与status相互对应（一列可以对应多个status），对board进行设置
-  - board中issue管理：issue在board上的可自由拖拽
-  - swimlane功能：自定义泳道功能
+   - board设置：column与status相互对应（一列可以对应多个status），对board进行设置
+   - board中issue管理：issue在board上的可自由拖拽
+   - swimlane功能：自定义泳道功能
 
 ## Why is agile
 
