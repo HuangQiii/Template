@@ -16,7 +16,7 @@
 
 1. 克隆代码: `git clone http://code.saas.choerodon.com.cn/hand-rdc-choerodon/agile-front.git --recursive`  
 
-2. 在boot和kanbanfront中分别执行`npm i`
+2. 在boot和agilefront中分别执行`npm i`
 
 3. 在boot下执行`gulp`（监听文件变动，不要关闭）和`npm run dev`
 
